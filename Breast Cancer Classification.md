@@ -99,12 +99,5 @@
         <li>Visualize the accuracy scores of different models using bar plots.</li>
         <li>Evaluate performance metrics for each model.</li>
     </ul>
-
-    <h2>Code Integration:</h2>
-    <p>Below is the Python code integrated with the HTML README:</p>
-
-    <pre><code>
-        // Python code goes here
-    </code></pre>
 </body>
 </html>
