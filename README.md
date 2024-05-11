@@ -18,17 +18,14 @@ This project focuses on developing a machine learning model to classify breast c
 
 ## Usage
 
+3. Install the required packages:
+
 ## Dataset
 - **Name**: Breast Cancer Wisconsin (Diagnostic)
-- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+- **Source for using online data**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 - **Creators**: Dr. William H. Wolberg, W. Nick Street, Olvi L. Mangasarian
 - **Date**: November, 1995
 - **Attributes**: 30 numeric predictive attributes and the class (malignant or benign)
 
-## Contributors
-- Add your name and contact information if you contribute to this project.
-
-## License
-- Specify the license under which this project is distributed.
 
 
