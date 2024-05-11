@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breast Cancer Classification - README</title>
+    <title>README - Breast Cancer Classification</title>
 </head>
 <body>
     <h1>Breast Cancer Classification</h1>
