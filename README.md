@@ -1,31 +1,21 @@
-# Breast Cancer Classification
+# Breast_Cancer
 
-## Project Overview
-This project focuses on developing a machine learning model to classify breast cancer tumors as malignant or benign using the Breast Cancer Wisconsin (Diagnostic) dataset. The goal is to accurately identify tumors based on their features, aiding in medical diagnosis and treatment planning.
+The Breast Cancer (Wisconsin) Diagnosis dataset contains the diagnosis and a set of 30 features describing the characteristics of the cell nuclei present in the digitized image of a of a fine needle aspirate (FNA) of a breast mass. <br>
 
-## Key Features
-- **Data Handling**: Python was used for data preprocessing, manipulation, and analysis. Libraries like pandas and numpy facilitated these tasks.
-- **Visualization**: Matplotlib was employed to visualize the dataset's characteristics, feature distributions, and model performance metrics.
-- **Machine Learning Pipeline**:
-  - Data preprocessing involved splitting the dataset into training and testing sets and scaling features using MinMaxScaler.
-  - Implemented seven classification algorithms including Naive Bayes, K-Nearest Neighbors, Decision Tree, Random Forest, Support Vector Machine, Logistic Regression, and Artificial Neural Network (ANN) for tumor classification.
-- **Model Evaluation**: Performance metrics such as accuracy, precision, and recall were computed for each model, providing insights into their effectiveness in breast cancer classification.
+Ten real-valued features are computed for each cell nucleus:
 
-## Tools & Technologies
-- **Programming Language**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Scikit-Learn, TensorFlow, Keras
-- **Development Tools**: Jupyter Notebook
-
-## Usage
-
-3. Install the required packages:
-
-## Dataset
-- **Name**: Breast Cancer Wisconsin (Diagnostic)
-- **Source for using online data**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
-- **Creators**: Dr. William H. Wolberg, W. Nick Street, Olvi L. Mangasarian
-- **Date**: November, 1995
-- **Attributes**: 30 numeric predictive attributes and the class (malignant or benign)
+- radius (mean of distances from center to points on the perimeter);
+- texture (standard deviation of gray-scale values);
+- perimeter;
+- area;
+- smoothness (local variation in radius lengths);
+- compactness (perimeter^2 / area - 1.0);
+- concavity (severity of concave portions of the contour);
+- concave points (number of concave portions of the contour);
+- symmetry;
+- fractal dimension (“coastline approximation” - 1).<br>
 
 
+The mean, standard error (SE) and “worst” or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. <br>
 
+We will analyze the features to understand the predictive value for diagnosis. We will then create models using two different algorithms and use the models to predict the diagnosis.
